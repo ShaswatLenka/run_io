@@ -14,35 +14,29 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-                    <h1 ><span style="color: aliceblue">RUN </span><span class = "pinktext">I/O</span> </h1>
+                    <h1 ><span style="color: grey; font-family: Andale Mono"> RUN I/O HACKATHON</span></h1> 
 				</header>
 
                 <p class="horizontal-text-left" style="font-size: 1.4vw">
-      HACKATHON | NIT ROURKELA | <span style="color: #00FAD7">2-3 NOVEMBER 2018</span>
+      HACKATHON | NIT ROURKELA |2-3 NOVEMBER 2018
+      </p> 
+                
+            <p class="horizontal-text-top" style="font-size: 1.4vw">
+      AN OPENCODE CLUB EVENT 2018 
       </p>
-            <p class="top-right-text">in association with mozilla campus club</p>
-                <p class="vertical-text-right">
-An OpenCode club Event 2018      
-    </p>
-                <h2 class="thirty-six" style="font-size: 7vw">36<span class="hours-of"> hours of </span><span><div class="loader" id="loader"></div></span></h2>
-    
+                
+
 				<footer>
-					<a href="#banner" class="button style2 scrolly-middle">click here and dive in!</a>
+					<a href="#banner" class="button style2 scrolly-middle">learn more</a>
 				</footer>
-                <div class="circle"></div>
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="vertical-line1"></div>
-                <div class="vertical-line2"></div>
-			</section>
-        <!--Photo by Dai KE on Unsplash-->
-    <img src="images/samuel-zeller-158996-unsplash.jpg" alt="Hackathon-image" class="glitch-img">
-    <p class="top-right-text">in association with mozilla campus club</p>
+		</section>
+        <div class="glitch-img" style="background-image: url('images/background1.jpg')"></div>
+     
 		<!-- Banner -->
 			<section id="banner">
-				<header>
+				
 					<h2>About Run I/O</h2>
-				</header>
+				
 				<p>NIT Rourkela is one of the most prestigious technical institutions of the country, and rightfully so. With a diverse set of talent pool in the institute itself we welcome programmers from all around the world to collaborate with us for a 12 hour Hackathon accompanied with guest lectures and developer talks. So let your imagination go wild and build something worth marvelling. Collaborate, create and help humanity make the next giant leap. Hackathons can be tough, but we'll ensure your survival! </p>
 				<footer>
 					<a href="#first" class="button style2 scrolly">And much more!</a>
@@ -119,6 +113,18 @@ An OpenCode club Event 2018
                         </ol>
 				    
 				</section>
+                <section>
+                <header>
+                    <h2>How to Register?</h2>
+                     </header>
+                    <ul class = "default">
+                    <li>To register for the Hackathon you must also be registered to <strong>INNOVISION</strong>, the annual tech fest of NIT Rourkela</li>
+                    <li>To register for INNOVISION, you must go to the official site for the fest which will be live soon.</li>
+                    <li>After registering for INNOVISION, you can register for the hackathon on the INNOVISION website itself</li>
+                    </ul>
+                    
+                   
+                </section>
 				<section>
 					<header>
 						<h2>Prizes</h2>
@@ -192,10 +198,6 @@ An OpenCode club Event 2018
 						</table>
 					</div>
 				</section>
-
-				<section>
-						<a href="" class="button">Register Here</a>
-				</section>
 			</article>
 	
 
@@ -205,8 +207,8 @@ An OpenCode club Event 2018
 				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 			</ul>
-			<div class="copyright">
-				<ul class="menu">
+			<div class="copyright" style="background: #fff" >
+				<ul class="menu" style="color: black; font-size: 1.1em" >
 					<li>Brought to you by OpenCode NITR</li>
                     <li>Photo credits: unsplash</li>
                     <li>In association with: Innovision</li>
@@ -225,22 +227,23 @@ An OpenCode club Event 2018
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/mgGlitch.min.js"></script>
-<script>
-	$( function() {
-		$( ".glitch-img" ).mgGlitch({
-			destroy : false, // set 'true' to stop the plugin
+            <script src="assets/js/mgGlitch.min.js"></script>
+            <script>
+	           $( function() {
+		          $( ".glitch-img" ).mgGlitch({
+			            destroy : false, // set 'true' to stop the plugin
                         glitch: true, // set 'false' to stop glitching
                         scale: true, // set 'false' to stop scaling
                         blend : true, // set 'false' to stop        glitch blending
                         blendModeType : 'hue', // select blend mode type
                         glitch1TimeMin : 600, // set min time for glitch 1 elem
                         glitch1TimeMax : 900, // set max time for glitch 1 elem
-                        glitch2TimeMin : 10, // set min time for glitch 2 elem
+                        glitch2TimeMin : 30, // set min time for glitch 2 elem
                         glitch2TimeMax : 115, // set max time for glitch 2 elem
                         zIndexStart : 8, // because of absolute position, set z-index base value
-		});
-	});
-	</script>
+		              });
+	               });
+	       </script>
+        
 	</body>
 </html>
