@@ -1,251 +1,780 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Run I/O Hackathon NITR</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-        <link rel="icon" href="images/runio.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	</head>
-	<body>
+	<title>Run IO Hackathon | NITR</title>
+	
+<!--	favicon-->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-                    <h1 ><span style="color: #423f3f"> RUN I/O | HACKATHON</span></h1> 
-				</header>
 
-                <p class="horizontal-text-left" style="font-size: 1.4vw">
-      HACKATHON | NIT ROURKELA |2-3 NOVEMBER 2018
-      </p> 
-                
-            <p class="horizontal-text-top" style="font-size: 1.4vw">
-      AN OPENCODE CLUB EVENT 2018 
-      </p>
-                
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
 
-				<footer>
-					<a href="#banner" class="button style2 scrolly-middle">learn more</a>
-				</footer>
-		</section>
-        <div class="glitch-img" style="background-image: url('images/background1.jpg')"></div>
-     
-		<!-- Banner -->
-			<section id="banner">
-				
-					<h2>About Run I/O</h2>
-				
-				<p>NIT Rourkela is one of the most prestigious technical institutions of the country, and rightfully so. With a diverse set of talent pool in the institute itself we welcome programmers from all around the world to collaborate with us for a 12 hour Hackathon accompanied with guest lectures and developer talks. So let your imagination go wild and build something worth marvelling. Collaborate, create and help humanity make the next giant leap. Hackathons can be tough, but we'll ensure your survival! </p>
-				<footer>
-					<a href="#first" class="button style2 scrolly">And much more!</a>
-				</footer>
-			</section>
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
-		<!-- Feature 1 -->
-			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/takahiro-sakamoto-251514-unsplash.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Food and Refreshments</h2>
-					</header>
-					<p>We will make sure you stay healthy and hydrated during the hackathon. Great ideas need an active mind! Let us take care of it. </p>
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+	<!-- Header -->
+	<header id="header" class="transparent-navbar">
+		<!-- container -->
+		<div class="container">
+			<!-- navbar header -->
+			<div class="navbar-header">
+				<!-- Logo -->
+				<div class="navbar-brand">
+					<a class="logo" href="index.html">
+						<img class="logo-img" src="./img/logo.png" alt="logo">
+						<img class="logo-alt-img" src="./img/logo.png" alt="logo">
+					</a>
 				</div>
-			</article>
+				<!-- /Logo -->
 
+				<!-- Mobile toggle -->
+				<button class="navbar-toggle">
+						<i class="fa fa-bars"></i>
+					</button>
+				<!-- /Mobile toggle -->
+			</div>
+			<!-- /navbar header -->
 
-		<!-- Feature 2 -->
-			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/chuttersnap-598266-unsplash.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Fun Events!</h2>
-					</header>
-                    <p>We will take care of your mood during the hackathon by keeping you upbeat by several fun events in between (of course no coding involved!). And they do have exciting prizes! </p>
-<!--               <p>How about unlimited caffeine? </p>-->
-				</div>
-			</article>
+			<!-- Navigation -->
+			<nav id="nav">
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#speakers">Speakers</a></li>
+					<li><a href="#sponsors">Sponsors</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<!-- /Navigation -->
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /Header -->
 
-		<!-- Our Sponsors -->
-			<article class="container box style2">
-				<header>
-					<h2>Our Sponsors<br> (will be updated soon)</h2>
-					<p>Our sponsors have helped us a great deal for organizing this Hackathon.<br>
-					From amazing prizes to cool refreshments, its them behind the scenes. </p>
-				</header>
-				<!-- sponsors go here -->
-			</article>
+	<!-- Home -->
+	<div id="home">
+		<!-- background image -->
+		<div class="section-bg" style="background-image:url(./img/background01.jpg)" data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
 
-		
-			<article class="container box style3">
-				<header>
-					<h2>Theme</h2>
-                    <p>The Hackathon theme is <strong>"the future"</strong> and participants are allowed to make a <strong>web based, app based or a robotic project</strong> with a vision to solve a problem that you think is evident in the future of the world.</p>
-                    <h2>Rules</h2>
-                    
-				</header>
-                <ol class="default">
-                    <li>Maximum team size is 3 members. We would suggest 1 designer and 2 programmers.</li>
-                    <li>Single participants can also register. We will find teams for you to join on spot.</li>
-                    <li>Participants should bring their own laptops. Tables and internet connection will be provided. </li>
-                    <li>Participants can build anything(software/hardware) but should not deviate from the theme.</li>
-                    <li>Participants are not allowed to exit the hackathon hall during the duration of hackathon.</li>
-                    <li>Food and Refreshments will be provided by us.</li>
-                    <li>You are allowed to use any Open Source Softwares or libraries/frameworks.</li>
-                    
-                    <li>Your final product will be evaluated by our mentors and the decision of mentors is final.</li>
-                    </ol>
-                
-				<section>
-					<header>
-						<h2>Code Of Conduct</h2>
-					
-					</header>
-                    
-                    	<ol class="default">
-                        <li> Participants shall accept full responsibility for their own work and ensure to work as a team.</li>
-                        <li> Be Respectful. Harrasment of any kind will not be tolerable.</li>
-                        <li>No participant shall engage in any malicious/illegal activities which do not adhere to general code of conduct for developers. Participants will be immediately disqualified If they are found indulging in malpractice. </li>
-                        <li> attendees should not use
-                            sexualised images, activities, or other material both in their hacks and during the event.
-                           </li>
-                        </ol>
-				    
-				</section>
-                <section>
-                <header>
-                    <h2>How to Register?</h2>
-                     </header>
-                    <ul class = "default">
-                    <li>To register for the Hackathon you must also be registered to <strong>INNOVISION</strong>, the annual tech fest of NIT Rourkela</li>
-                    <li>To register for INNOVISION, you must go to the official site for the fest which will be live soon.</li>
-                    <li>After registering for INNOVISION, you can register for the hackathon on the INNOVISION website itself</li>
-                    </ul>
-                    
-                   
-                </section>
-				<section>
-					<header>
-						<h2>Prizes</h2>
-                        <p>(will be updated soon)</p>
-					</header>
-<!--					<blockquote></blockquote>-->
-				</section>
-				<section>
-					<header>
-						<h3></h3>
-					</header>
-					<p></p>
-					<hr />
-					<p></p>
-				</section>
-				<section>
-					<header>
-						<h3></h3>
-					</header>
-					<ul >
-					</ul>
-				</section>
-				<section>
-					<header>
-						<h3></h3>
-					</header>
-					<ol>
-					</ol>
-				</section>
-				<section>
-					<header>
-						<h3>Event Details<br>(will be updated soon)</h3>
-
-					</header>
-					<div class="table-wrapper">
-						<table class="default">
-							<thead>
-								<tr>
-									<th>Date</th>
-									<th>Event</th>
-									<th>Description</th>
-									<th>time</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td></td>
-								</tr>
-								<tr>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td></td>
-								</tr>
-								<tr>
-									<td></td>
-									<td></td>
-									<td> </td>
-									<td></td>
-								</tr>
-								<tr>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td></td>
-								</tr>
-							</tbody>
-						</table>
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- home content -->
+					<div class="col-md-8 col-md-offset-2">
+						<div class="home-content">
+							<h1>RUN <span style="color: #dd0a37">IO</span> HACKATHON | 3-4 NOV 2018 | <span style="color: #00B2AE">NIT ROURKELA</span> </h1>
+							<h4 class="lead"></h4>
+							<a href="#" class="main-btn">Registration opens soon</a>
+						</div>
 					</div>
-				</section>
-			</article>
+					<!-- /home content -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /home wrapper -->
+	</div>
+	<!-- /Home -->
+
+	<!-- About -->
+	<div id="about" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>About</span> <span style="color: #dd0a37;">Run IO</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<div class="col-md-8 col-md-offset-2 text-justify">
+					<!-- about content -->
+					<div class="about-content">
+						<p>We believe that the future of the world holds a lot of uncertainties. We understand that it is our responsibility to work on the issues that are evident in the near or far future. Run IO Hackathon is all about bringing together ideas for the long <span style="color: #dd0a37"><strong>RUN</strong></span> and developing products/services to enhance the future. It's a first of its kind event in Eastern India in which we try to change the shape of the future in 24 hours. 
+          Taking place in the beautiful city of Rourkela, at the National Institute of Technology which is one of the most prestigious technical institutions of the country, we manage to bring together a diverse set of talents from a vast talent pool in the institution to organize this hackathon.<br> 
+           Moreover, the hackathon takes place along with the largest tech fest of Eastern India (INNOVISION), with an attendance of 1500+ students from all over the country.<br>We welcome programmers from all around the world to collaborate with us for the Hackathon accompanied with guest lectures and developer talks. So let your imagination go wild and build something worth marvelling. Collaborate, create and help humanity make the next giant leap. Hackathons can be tough, but we'll ensure your survival!</p>
+					</div>
+					<!-- /about content -->
+
+					<!-- Numbers -->
+<!--
+					<div id="numbers">
+						<div class="row">
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="24" data-speed="1500">0</span>+</h3>
+									<p>Hours</p>
+								</div>
+							</div>
+-->
+							<!-- /number -->
+
+							<!-- number -->
+<!--
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="300" data-speed="1500">0</span>+</h3>
+									<p>Participants</p>
+								</div>
+							</div>
+-->
+							<!-- /number -->
+
+							<!-- number -->
+<!--
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="50" data-speed="1500">0</span>+</h3>
+									<p>Country</p>
+								</div>
+							</div>
+-->
+							<!-- /number -->
+
+							<!-- number -->
+<!--
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="20" data-speed="1500">0</span>+</h3>
+									<p></p>
+								</div>
+							</div>
+-->
+							<!-- /number -->
+<!--						</div>-->
+						<!-- /row -->
+<!--					</div>-->
+					<!-- /Numbers -->
+				</div>
+			</div>
+			<!-- row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /About -->
+
+	<!-- Galery -->
+<!--
+	<div id="galery">
+		<div class="container">
+			<div class="row">
+				<div id="galery-owl" class="owl-carousel owl-theme">
+					<div class="galery-item">
+						<img src="./img/galery01.jpg" alt="">
+					</div>
+
+					<div class="galery-item">
+						<img src="./img/galery02.jpg" alt="">
+					</div>
+
+					<div class="galery-item">
+						<img src="./img/galery03.jpg" alt="">
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+-->
 	
 
-		<section id="footer">
-			<ul class="icons">
-				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-			</ul>
-			<div class="copyright" style="background: #fff" >
-				<ul class="menu" style="color: black; font-size: 1.1em" >
-					<li>Brought to you by OpenCode NITR</li>
-                    <li>Photo credits: unsplash</li>
-                    <li>In association with: Innovision</li>
-				</ul>
-			</div>
-		</section>
-
-		<!-- Scripts -->
-            <script
-	           src="https://code.jquery.com/jquery-2.2.4.min.js"
-	           integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-	           crossorigin="anonymous">
-            </script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-<!--            <script src="assets/js/mgGlitch.min.js"></script>-->
+	<!-- Video CTA -->
 <!--
-            <script>
-	           $( function() {
-		          $( ".glitch-img" ).mgGlitch({
-			            destroy : false, // set 'true' to stop the plugin
-                        glitch: true, // set 'false' to stop glitching
-                        scale: true, // set 'false' to stop scaling
-                        blend : true, // set 'false' to stop        glitch blending
-                        blendModeType : 'hue', // select blend mode type
-                        glitch1TimeMin : 800, // set min time for glitch 1 elem
-                        glitch1TimeMax : 1000, // set max time for glitch 1 elem
-                        glitch2TimeMin : 100, // set min time for glitch 2 elem
-                        glitch2TimeMax : 215, // set max time for glitch 2 elem
-                        zIndexStart : 8, // because of absolute position, set z-index base value
-		              });
-	               });
-	       </script>
+	<div id="video-cta" class="section">
+		<div class="section-bg" style="background-image:url(./img/background02.jpg)" data-stellar-background-ratio="0.5"></div>
 -->
-        
-	</body>
+		<!-- /background image -->
+
+		<!-- container -->
+<!--
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="cta-content text-center">
+						<a class="video-play" href="#">
+							<i class="fa fa-play"></i>
+						</a>
+						<h2>Watch Event Trailer</h2>
+						<p class="lead"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+	<!-- /Video CTA -->
+
+	<!-- Event Schedule -->
+	<div id="schedule" class="section">
+		<!-- container -->
+		<br>
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Event</span> <span style="color: #dd0a37;">Schedule</span></h3>
+				</div>
+				
+				<!-- /section title -->
+
+				<div class="col-md-8 col-md-offset-2">
+
+					<div class="events-wrapper">
+						
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">3</span>
+									<span class="year">NOV, 2018</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 9 : 00 AM - 12 : 00 PM</p>
+								<h3 class="event-title">KICK OFF</h3>
+								<p>details will be updated soon.</p>
+<!--								<p>By <a href="#">John Doe</a></p>-->
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 2 : 00 PM - 5 : 00 PM</p>
+								<h3 class="event-title">WORKSHOP</h3>
+								<p>details will be updated soon</p>
+<!--								<p>By <a href="#">John Doe</a></p>-->
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 9 : 00 PM - 12 : 00 AM</p>
+								<h3 class="event-title">HACKATHON</h3>
+								<p>details will be updated soon</p>
+<!--								<p>By <a href="#">John Doe</a></p>-->
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">4</span>
+									<span class="year">NOV, 2018</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 12 : 00 AM - 12 : 30 AM</p>
+								<h3 class="event-title">CAFFEINE BREAK</h3>
+								<p>details will be updated soon</p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 12 : 30 AM - 6 : 30 AM</p>
+								<h3 class="event-title">HACKATHON</h3>
+								<p>details will be updated soon</p>
+							</div>
+						</div>
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 6 : 30 AM - 7 : 00 AM</p>
+								<h3 class="event-title">BREAKFAST</h3>
+								<p>details will be updated soon</p>
+							</div>
+						</div>
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 7 : 00 AM - 10 : 00 AM</p>
+								<h3 class="event-title">HACKATHON</h3>
+								<p>details will be updated soon</p>
+							</div>
+						</div>
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 11 : 00 AM - 12 : 00 AM</p>
+								<h3 class="event-title">PRIZE DISTRIBUTION CEREMONY</h3>
+								<p>details will be updated soon</p>
+							</div>
+						</div>
+						
+					</div>
+
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Event Schedule -->
+
+	<!-- Speakers -->
+<!--	<div id="speakers" class="section">-->
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span style="color: #dd0a37;">PRIZES</span></h3>
+					<p>(will be updated soon)</p>
+				</div>
+            </div>
+        </div>
+    
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Our</span> <span style="color: #dd0a37;">Speakers</span></h3>
+					<p>(will be updated soon)</p>
+				</div>
+				
+				<!-- section title -->
+
+				<!-- speaker -->
+<!--
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="./img/speaker01.jpg" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+-->
+				<!-- /speaker -->
+
+				<!-- speaker -->
+<!--
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="./img/speaker02.jpg" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+-->
+				<!-- /speaker -->
+
+				<!-- speaker -->
+<!--
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="./img/speaker03.jpg" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+-->
+				<!-- /speaker -->
+
+				<!-- speaker modal -->
+
+<!--
+				<div id="speaker-modal-1" class="speaker-modal modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="speaker-modal-img">
+											<img src="./img/speaker-info.jpg" alt="">
+										</div>
+									</div>
+-->
+<!--
+									<div class="col-md-7">
+										<div class="speaker-modal-content">
+											<h2 class="speaker-name">John Doe</h2>
+											<span class="speaker-job">- Manager, CEO</span>
+
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+												irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+											<div class="speaker-website">
+												<h4>Website</h4>
+												<a href="#">www.johndoe.com</a>
+											</div>
+
+											<div class="speaker-social">
+												<h4>Social Profile</h4>
+												<a href="#"><i class="fa fa-facebook"></i></a>
+												<a href="#"><i class="fa fa-twitter"></i></a>
+												<a href="#"><i class="fa fa-instagram"></i></a>
+												<a href="#"><i class="fa fa fa-linkedin"></i></a>
+											</div>
+
+											<div class="speaker-events">
+												<h4>Sessions</h4>
+												<div class="speaker-event">
+													<span><strong>Day 1 -</strong> February 20, 2018 8 : 00 AM - 11 : 00 AM</span>
+													<p>His id altera fabellas facilisis. Has eros assueverit cu</p>
+												</div>
+
+												<div class="speaker-event">
+													<span><strong>Day 2 -</strong> February 20, 2018 8 : 00 AM - 11 : 00 AM</span>
+													<p>At mucius deserunt delicatissimi eam, labitur detraxit ut sit</p>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+
+				<!-- /speaker modal -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+<!--	</div>-->
+	<!-- /Speakers -->
+
+	<!-- Sponsors -->
+	<div id="sponsors" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Our</span> <span style="color: #dd0a37;">Sponsors</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="http://hacksociety.tech" class="sponsor">
+						<img src="./img/sponsor_1.png" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+<!--
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./img/sponsor.png" alt="">
+					</a>
+				</div>
+-->
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+<!--
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./img/sponsor.png" alt="">
+					</a>
+				</div>
+-->
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+<!--
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./img/sponsor.png" alt="">
+					</a>
+				</div>
+-->
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+<!--
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./img/sponsor.png" alt="">
+					</a>
+				</div>
+-->
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+<!--
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./img/sponsor.png" alt="">
+					</a>
+				</div>
+-->
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+<!--
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./img/sponsor.png" alt="">
+					</a>
+				</div>
+-->
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+<!--
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./img/sponsor.png" alt="">
+					</a>
+				</div>
+-->
+				<!-- /sponsor -->
+
+<!--			</div>-->
+			<!-- /row -->
+			
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Sponsors -->
+<h4 class="lead text-center">Want to become a sponsor? Drop us a mail at <span style="color: #dd0a37">communityopencode@gmail.com</span></h4>
+	
+
+</div>
+
+<div class="container">
+   <h2 class="title text-center">In <span style="color: #dd0a37">Association</span> with:</h2>
+   <br>
+    <div class="row">
+       <div class="col-md-6 col-sm-6 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./img/assoc_1.png" alt="innovision tech fest">
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./img/assoc_2.png" alt="designtab">
+					</a>
+				</div>
+    </div>
+</div>
+ 
+  <br><br>
+  
+<div class="container">
+   <h1 class="title text-center">Brought <span style="color: #dd0a37">to you </span>by:</h1>
+    <div class="row">
+       <div class="col-md-4 col-sm-4 col-xs-6"></div>
+        <div class="col-md-4 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img class="float-right" src="./img/opencode.png" alt="opencode">
+					</a>
+				</div>
+    </div>
+</div>
+
+	<!-- CTA -->
+	<div id="cta" class="section">
+		<!-- background image -->
+		<div class="section-bg" style="background-image:url(./img/galery03.jpg)" data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- container -->
+			<div class="row">
+				<!-- cta content -->
+				<div class="col-md-8 col-md-offset-2">
+					<div class="cta-content text-center">
+                        <h2>Meanwhile, read our code of conduct</h2>
+						<p class="lead"></p>
+						<a href = "coc.html" class="main-btn">CODE OF CONDUCT</a>
+					</div>
+				</div>
+				<!-- /cta content -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /CTA -->
+
+	<!-- Contact -->
+	<div id="contact" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Contact</span> <span style="color: #dd0a37;">Info</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<h3>Address</h3>
+						<p>National Institute of Technology, Rourkela</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<h3>Phone</h3>
+						<p>+91 9040409540</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<h3>Email</h3>
+						<a href="#">communityopencode@gmail.com</a>
+					</div>
+				</div>
+				<!-- /contact -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+
+		<!-- Map -->
+		<div id="map"></div>
+		<!-- /Map -->
+	</div>
+	<!-- /Contact -->
+
+	<!-- Footer -->
+	<footer id="footer">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+
+				<!-- footer logo -->
+				<div class="col-md-4 col-md-push-4">
+					<div class="footer-brand">
+						<a class="logo" href="index.html">
+							<img class="logo-img" src="./img/logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<!-- /footer logo -->
+
+				<!-- contact social -->
+				<div class="col-md-4 col-md-push-4">
+					<div class="contact-social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="https://twitter.com/HackathonIo"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<!-- /contact social -->
+
+				<!-- copyright -->
+				<div class="col-md-4 col-md-pull-8">
+				<span class="copyright">
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script></span>
+                    
+                     <p>Credits:<span><a href="https://colorlib.com" target="_blank">Colorlib</a></span></p> 
+<p>all trademarks and logos are the property of their respective owners</p>
+				</div>
+				<!-- /copyright -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /Footer -->
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
 </html>
