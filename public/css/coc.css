@@ -1,0 +1,7 @@
+body{
+    background-image: url("../img/background01.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+}
