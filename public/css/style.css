@@ -94,7 +94,8 @@ textarea.input {
   padding: 90px 0px;
 }
 
-.section-bg {
+ .section-bg {
+  background-image:url(../img/background_01.jpg);
   position: absolute;
   left: 0;
   top: 0;
@@ -322,7 +323,7 @@ textarea.input {
 
 #home .home-wrapper {
   position: absolute;
-  top: 50%;
+  top: 85%;
   left: 0;
   right: 0;
   text-align: center;
@@ -1006,9 +1007,49 @@ textarea.input {
     display: block;
     text-align: center;
   }
+  #home .home-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+  .section-bg {
+  background-image:url(../img/background01.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  z-index: -1;
+}
 }
 
 @media only screen and (max-width: 767px) {
+#home .home-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+ .section-bg {
+  background-image:url(../img/background01.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  z-index: -1;
+}
   .home-content h1 {
     font-size: 31px;
   }
