@@ -746,9 +746,12 @@ textarea.input {
 .sponsor {
   display: block;
   opacity: 0.95;
-  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
+  width: 50%;
+  
 }
 
 .sponsor:hover {
