@@ -148,7 +148,6 @@ textarea.input {
 }
 
 .navbar-brand .logo>img {
-  max-height: 70px;
   max-width: 100px;
 }
 
@@ -818,6 +817,8 @@ textarea.input {
 
 #footer {
   padding: 60px 0px;
+  background: rgba(0,0,0,0.85);
+  color: white;
 }
 
 .footer-brand {
@@ -825,12 +826,12 @@ textarea.input {
 }
 
 .footer-brand .logo>img {
-  max-height: 50px;
+  max-height: 150px;
 }
 
 .copyright {
-  height: 50px;
-  line-height: 50px;
+  text-align: center;
+  line-height: 30px;
 }
 
 .contact-social {
