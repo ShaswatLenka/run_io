@@ -437,7 +437,7 @@ textarea.input {
 ===========================================================*/
 
 #speakers {
-  background-color: #F9F9FA;
+  background-color: #ffffff;
 }
 
 .speaker {
@@ -1094,4 +1094,59 @@ textarea.input {
 .coc{
     font-size: 20px;
     color: white;
+}
+
+
+
+/*=========================================================
+	SPONSORED PRIZES
+===========================================================*/
+
+#sponsored-prizes {
+  background-color: #ffffff;
+}
+
+.sponsored-prizes {
+  position: relative;
+  margin-bottom: 30px;
+}
+.sponsored-prizes  .sponsored-prizes-img>img {
+  width: 70%;
+}
+
+.sponsored-prizes  .sponsored-prizes-body {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+}
+
+.sponsored-prizes  .sponsored-prizes-content {
+  position: relative;
+  padding: 30px;
+  width: 80%;
+  background: #dd0a37;
+  text-align: left;
+  z-index: 20;
+
+}
+
+.sponsored-prizes  .sponsored-prizes-content>h2 {
+  color: #FFF;
+}
+
+.sponsored-prizes  .sponsored-prizes-content>span {
+  color: #fff;
+}
+
+.sponsored-prizes  .sponsored-prizes-social {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  z-index: 5;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
